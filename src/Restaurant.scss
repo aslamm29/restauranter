@@ -1,0 +1,50 @@
+.appView {
+    display: flex;
+    flex-direction: row;
+}
+
+.resultView {
+
+    flex-direction: column;
+    flex: 1;
+
+    .listView {
+
+    box-shadow: 0 1px 1px #333;
+    border: solid 1px #ddd;
+    border-radius: 2px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+
+
+        .listName {
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .listText {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+    }
+}
+
+.searchView {
+
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    box-shadow: 0 1px 1px #333;
+    border: solid 1px #ddd;
+    padding: 10px;
+    margin: 10px;
+  
+
+    .inputField {
+
+        border: none;
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+}
